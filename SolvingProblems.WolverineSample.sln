@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33402.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolvingProblems.WolverineSample", "SolvingProblems.WolverineSample\SolvingProblems.WolverineSample.csproj", "{3BE3E0C8-BC52-4E18-B64B-F7124255CE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{92CD9EEF-3866-4210-B39D-9BBD9F69B0E8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		SolutionFiles\curl-amd64 = SolutionFiles\curl-amd64
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		global.json = global.json
+		SolutionFiles\warmup-startup.sh = SolutionFiles\warmup-startup.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionScripts", "SolutionScripts", "{66ADA5B4-A102-4032-A05F-5045869769A0}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionScripts\EfFunctions.psm1 = SolutionScripts\EfFunctions.psm1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BE3E0C8-BC52-4E18-B64B-F7124255CE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE3E0C8-BC52-4E18-B64B-F7124255CE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE3E0C8-BC52-4E18-B64B-F7124255CE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE3E0C8-BC52-4E18-B64B-F7124255CE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDE7E076-2002-4899-B5DE-DE82A06F8FAE}
+	EndGlobalSection
+EndGlobal

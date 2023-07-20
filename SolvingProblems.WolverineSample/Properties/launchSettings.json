@@ -1,0 +1,38 @@
+{
+  "profiles": {
+    "Local": {
+      "commandName": "Project",
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8443;http://localhost:8080"
+    },
+    "Beta": {
+      "commandName": "Project",
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Beta"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:8443;http://localhost:8080"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": false
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchUrl": "https://localhost:8443/swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:8443;http://localhost:8080"
+      },
+      "distributionName": ""
+    }
+  }
+}
